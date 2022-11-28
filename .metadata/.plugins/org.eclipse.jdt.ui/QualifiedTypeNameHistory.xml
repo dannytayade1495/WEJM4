@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.jspiders.multithreading.threads.MyThread1"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreading.threads.MyThread2"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreading.threads.MyThread3"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreading.threads.MyThread4"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingproperties.threads.MyThread1"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingproperties.threads.MyThread2"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingwaitandnotify.resources.Shop"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingwaitandnotify.threads.Customer"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingwaitandnotify.threads.Supplier"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreading.resources.Account"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreading.threads.Husband"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreading.threads.Wife"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.jspiders.multiplayercasestudy.entity.Song"/>
+    <fullyQualifiedTypeName name="com.jspiders.multiplayercasestudy.operations.SongOperations"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="com.jspiders.serialization.object.Student"/>
+    <fullyQualifiedTypeName name="com.jspiders.singleton.object.SingletonLazy"/>
+    <fullyQualifiedTypeName name="com.jspiders.singleton.main.SingletonEagerMain"/>
+    <fullyQualifiedTypeName name="com.jspiders.singleton.object.SingletonEager"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.order.Order"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Pizza"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Burger"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Fries"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Coffee"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Momos"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Pasta"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+</qualifiedTypeNameHistroy>

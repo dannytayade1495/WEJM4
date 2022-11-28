@@ -1,0 +1,5 @@
+package com.jspiders.filehandling.read;
+
+public class ByteRead {
+
+}

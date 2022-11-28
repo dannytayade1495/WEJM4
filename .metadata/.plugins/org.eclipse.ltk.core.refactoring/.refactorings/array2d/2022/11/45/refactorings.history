@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Array2dAddition.java&apos; to &apos;array2d/src/com.jspiders.array2d.main&apos;&#x0D;&#x0A;- Original project: &apos;array2d&apos;&#x0D;&#x0A;- Destination element: &apos;array2d/src/com.jspiders.array2d.main&apos;&#x0D;&#x0A;- Original element: &apos;com.jspiders.array2d.Array2dAddition.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.jspiders.array2d.main" element1="/src&lt;com.jspiders.array2d{Array2dAddition.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1667626410215" units="1" version="1.0"/>
+</session>

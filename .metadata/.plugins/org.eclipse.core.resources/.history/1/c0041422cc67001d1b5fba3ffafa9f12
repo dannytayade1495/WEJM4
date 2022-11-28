@@ -1,0 +1,24 @@
+package com.jspiders.multiplayercasestudy.operations;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import com.jspiders.multiplayercasestudy.entity.Song;
+
+public class SongOperations {
+	
+	private static List<Song> playlist = new ArrayList();
+	private static Scanner scanner = new Scanner(System.in);
+	
+	public void displayAllSongs() {
+		for (int i = 0; i < playlist.size(); i++) {
+			System.out.println(i+1 + ". "+ playlist.get(i).getSongName());
+		}
+	}
+	
+	public void addSong() {
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.jspiders.factorypattern.main;
+
+public class Cafe {
+
+}

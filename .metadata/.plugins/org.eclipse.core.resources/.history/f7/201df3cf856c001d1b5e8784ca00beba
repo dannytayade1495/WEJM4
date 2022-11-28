@@ -1,0 +1,5 @@
+package com.jspiders.factorypattern.items;
+
+public class Pizza {
+
+}

@@ -1,0 +1,5 @@
+package com.jspiders.serialization.write;
+
+public class Serialization {
+
+}

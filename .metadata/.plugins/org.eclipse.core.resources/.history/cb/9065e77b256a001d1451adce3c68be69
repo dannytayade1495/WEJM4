@@ -1,0 +1,5 @@
+package com.jspiders.filehandling.write;
+
+public class ByteWrite {
+
+}

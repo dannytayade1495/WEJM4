@@ -1,0 +1,17 @@
+package com.jspiders.singleton.object;
+
+public class SingletonEager {
+
+	static SingletonEager object = new SingletonEager(); //@100
+	static int count; //1
+
+	private SingletonEager() {
+		count++;
+	}
+
+	public static SingletonEager getObject() {
+		System.out.println("Object created " + count + " times");
+		return object;
+	}
+
+}

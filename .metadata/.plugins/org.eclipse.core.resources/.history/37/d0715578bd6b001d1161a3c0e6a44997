@@ -1,0 +1,12 @@
+package com.jspiders.singleton.object;
+
+public class SingletonLazy {
+	
+	static SingletonLazy object;
+	static int count;
+	
+	private SingletonLazy() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
