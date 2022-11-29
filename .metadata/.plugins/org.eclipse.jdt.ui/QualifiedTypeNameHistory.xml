@@ -43,4 +43,6 @@
     <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Momos"/>
     <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Pasta"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="com.jspiders.builderpattern.builder.MobileBuilder"/>
+    <fullyQualifiedTypeName name="com.jspiders.builderpattern.object.Mobile"/>
 </qualifiedTypeNameHistroy>
