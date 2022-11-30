@@ -73,6 +73,7 @@ public class Cafe {
 			break;
 		default:
 			System.out.println("Invalid choice.");
+			order = null;
 			break;
 		}
 

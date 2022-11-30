@@ -45,4 +45,7 @@
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="com.jspiders.builderpattern.builder.MobileBuilder"/>
     <fullyQualifiedTypeName name="com.jspiders.builderpattern.object.Mobile"/>
+    <fullyQualifiedTypeName name="com.jspiders.adapterpattern.object.Wejm4"/>
+    <fullyQualifiedTypeName name="com.jspiders.adapterpattern.interfaces.Mock"/>
+    <fullyQualifiedTypeName name="com.jspiders.adapterpattern.adapter.Adapter"/>
 </qualifiedTypeNameHistroy>
