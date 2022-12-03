@@ -1,9 +1,0 @@
-package com.jspiders.factorypattern.main;
-
-import com.jspiders.factorypattern.order.Order;
-
-public class Cafe {
-	
-	private static Order order;
-
-}

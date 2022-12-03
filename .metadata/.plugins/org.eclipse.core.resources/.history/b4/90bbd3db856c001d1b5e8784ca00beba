@@ -1,5 +1,0 @@
-package com.jspiders.factorypattern.items;
-
-public class Fries {
-
-}

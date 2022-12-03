@@ -1,5 +1,0 @@
-package com.jspiders.singleton.object;
-
-public class Singleton {
-
-}
