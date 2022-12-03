@@ -48,4 +48,5 @@
     <fullyQualifiedTypeName name="com.jspiders.adapterpattern.object.Wejm4"/>
     <fullyQualifiedTypeName name="com.jspiders.adapterpattern.interfaces.Mock"/>
     <fullyQualifiedTypeName name="com.jspiders.adapterpattern.adapter.Adapter"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 </qualifiedTypeNameHistroy>
