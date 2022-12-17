@@ -22,7 +22,6 @@
     <fullyQualifiedTypeName name="com.jspiders.multiplayercasestudy.entity.Song"/>
     <fullyQualifiedTypeName name="com.jspiders.multiplayercasestudy.operations.SongOperations"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
@@ -35,7 +34,6 @@
     <fullyQualifiedTypeName name="com.jspiders.singleton.object.SingletonEager"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="com.jspiders.factorypattern.order.Order"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Pizza"/>
     <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Burger"/>
     <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Fries"/>
@@ -48,5 +46,16 @@
     <fullyQualifiedTypeName name="com.jspiders.adapterpattern.object.Wejm4"/>
     <fullyQualifiedTypeName name="com.jspiders.adapterpattern.interfaces.Mock"/>
     <fullyQualifiedTypeName name="com.jspiders.adapterpattern.adapter.Adapter"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.CallableStatement"/>
+    <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="com.jspiders.jdbc3.entity.Students"/>
 </qualifiedTypeNameHistroy>
