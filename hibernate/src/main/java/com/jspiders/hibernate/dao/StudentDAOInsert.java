@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 
 import com.jspiders.hibernate.dto.StudentDTO;
 
-public class StudentDAO {
+public class StudentDAOInsert {
 	
 	public static void main(String[] args) {
 		
