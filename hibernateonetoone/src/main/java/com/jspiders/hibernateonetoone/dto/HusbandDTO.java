@@ -19,5 +19,5 @@ public class HusbandDTO {
 	
 	@OneToOne
 	WifeDTO wife;
-
+	
 }

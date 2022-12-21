@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.jspiders.multithreading.resources.Account"/>
-    <fullyQualifiedTypeName name="com.jspiders.multithreading.threads.Husband"/>
-    <fullyQualifiedTypeName name="com.jspiders.multithreading.threads.Wife"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.jspiders.multiplayercasestudy.entity.Song"/>
     <fullyQualifiedTypeName name="com.jspiders.multiplayercasestudy.operations.SongOperations"/>
@@ -54,10 +47,17 @@
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernate.dto.StudentDTO"/>
+    <fullyQualifiedTypeName name="com.jspiders.hibernateonetoone.dto.HusbandDTO"/>
+    <fullyQualifiedTypeName name="com.jspiders.hibernateonetoone.dto.WifeDTO"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
-    <fullyQualifiedTypeName name="com.jspiders.hibernateonetoone.dto.WifeDTO"/>
-    <fullyQualifiedTypeName name="com.jspiders.hibernateonetoone.dto.HusbandDTO"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="com.jspiders.hibernateonetomany.dto.ChildDTO"/>
+    <fullyQualifiedTypeName name="com.jspiders.hibernateonetomany.dao.FatherChildDAO"/>
+    <fullyQualifiedTypeName name="com.jspiders.hibernateonetomany.dto.FatherDTO"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

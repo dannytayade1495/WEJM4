@@ -38,18 +38,21 @@ public class HubandWifeDAO {
 		openConnection();
 		transaction.begin();
 		
-		WifeDTO wife1 = new WifeDTO();
-		wife1.setId(1);
-		wife1.setName("Daya");
-		wife1.setAge(35);
-		manager.persist(wife1);
-		
 		HusbandDTO husband1 = new HusbandDTO();
-		husband1.setId(1);
-		husband1.setName("Jethalal");
+		husband1.setId(2);
+		husband1.setName("Iyer");
 		husband1.setAge(40);
+		
+		WifeDTO wife1 = new WifeDTO();
+		wife1.setId(2);
+		wife1.setName("Babita");
+		wife1.setAge(35);
+		wife1.setHusband(husband1);
+		
 		husband1.setWife(wife1);
+		
 		manager.persist(husband1);
+		manager.persist(wife1);
 		
 		transaction.commit();
 		closeConnection();
