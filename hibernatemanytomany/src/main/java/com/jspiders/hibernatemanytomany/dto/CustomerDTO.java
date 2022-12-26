@@ -4,6 +4,8 @@ import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 
 import lombok.Data;
@@ -22,6 +24,9 @@ public class CustomerDTO {
 	private long contact;
 	
 	@ManyToMany
+	@JoinTable(name = "customer_product_details",
+	joinColumns = @JoinColumn(referencedColumnName = "id"),
+	inverseJoinColumns = @JoinColumn(referencedColumnName = "id"))
 	private List<ProductDTO> products;
 
 }
