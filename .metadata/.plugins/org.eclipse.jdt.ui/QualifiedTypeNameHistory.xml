@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Burger"/>
     <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Fries"/>
     <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Coffee"/>
     <fullyQualifiedTypeName name="com.jspiders.factorypattern.items.Momos"/>
@@ -12,19 +11,13 @@
     <fullyQualifiedTypeName name="com.jspiders.adapterpattern.interfaces.Mock"/>
     <fullyQualifiedTypeName name="com.jspiders.adapterpattern.adapter.Adapter"/>
     <fullyQualifiedTypeName name="java.lang.Class"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="com.mysql.cj.jdbc.CallableStatement"/>
     <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
-    <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="com.jspiders.jdbc3.entity.Students"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernate.dto.StudentDTO"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernateonetoone.dto.HusbandDTO"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernateonetoone.dto.WifeDTO"/>
@@ -58,6 +51,13 @@
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.Query"/>
-    <fullyQualifiedTypeName name="com.jspiders.jpql.dto.DepartmentDTO"/>
     <fullyQualifiedTypeName name="com.jspiders.jpql.dao.DepartmentDAO"/>
+    <fullyQualifiedTypeName name="com.jspiders.jpql.dto.DepartmentDTO"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 </qualifiedTypeNameHistroy>
