@@ -26,6 +26,7 @@ INDEX VERSION 1.131+D:\WEJM4\.metadata\.plugins\org.eclipse.jdt.core
 414359699.index
 1694477727.index
 1009081214.index
+<<<<<<< HEAD
 3390591085.index
 3275800694.index
 4178919815.index
@@ -44,6 +45,30 @@ INDEX VERSION 1.131+D:\WEJM4\.metadata\.plugins\org.eclipse.jdt.core
 1190747520.index
 1048536860.index
 98074743.index
+=======
+936562528.index
+986173041.index
+2754205116.index
+2681176882.index
+666848696.index
+2000590911.index
+1601165308.index
+2792410322.index
+4502174.index
+1190747520.index
+2087444564.index
+1352972467.index
+1561244935.index
+4266365496.index
+1865797976.index
+4105394240.index
+2725479860.index
+3649309465.index
+2633621666.index
+3399147598.index
+4122552391.index
+2755020805.index
+>>>>>>> 8f62bc4df5b525a5d5fda4464fcac37be0126fb4
 1272507924.index
 2754205116.index
 2679728757.index
