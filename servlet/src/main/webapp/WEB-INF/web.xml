@@ -36,9 +36,7 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 
 	<servlet>
 		<servlet-name>date</servlet-name>
-		<servlet-class>com.jspiders.servlet.servlets.
-			DateTimeServlet
-		</servlet-class>
+		<servlet-class>com.jspiders.servlet.servlets.DateTimeServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
