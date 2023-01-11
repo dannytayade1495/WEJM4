@@ -19,7 +19,7 @@ public class DateTimeServlet extends HttpServlet {
 		resp.setHeader("Refresh", "1");
 		PrintWriter writer = resp.getWriter();
 		Date date = new Date();
-		writer.println("<h1> " + date + "</h1>");
+		writer.println("<h1 align='center'> " + date + "</h1>");
 	}
 
 }
