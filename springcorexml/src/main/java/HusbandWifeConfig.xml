@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="com.jspiders.springcorexml.beans.HusbandBean" 
+	name="husband1">
+		<property name="id" value="1"/>
+		<property name="name" value="Abhishek"/>
+		<property name="age" value="30"/>
+		<property name="wife" ref="wife1"/>
+	</bean>
+	
+	<bean class="com.jspiders.springcorexml.beans.WifeBean"
+	name="wife1">
+		<property name="id" value="1"/>
+		<property name="name" value="Aarti"/>
+		<property name="age" value="27"/>
+	</bean>
+	
+
+</beans>
