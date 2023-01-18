@@ -22,6 +22,24 @@ public class StudentController {
 		return "Home";
 	}
 	
+	//Login Form Controller
+	@GetMapping("/login")
+	public String login() {
+		return "Login";
+	}
+	
+	//Login controller
+	@PostMapping("/login")
+	public String loginData(@RequestParam String username,
+							@RequestParam String password, ModelMap map) {
+		StudentPOJO student = service.login(username, password);
+		if (student != null) {
+			return "Home";
+		}
+		map.addAttribute("msg", "Invalid username or password..!!");
+		return "Login";
+	}
+	
 	//Add Form controller
 	@GetMapping("/add")
 	public String add() {
@@ -33,9 +51,12 @@ public class StudentController {
 	public String addStudent(@RequestParam String name,
 							@RequestParam String email,
 							@RequestParam long contact,
-							@RequestParam String city, ModelMap map) {
+							@RequestParam String city,
+							@RequestParam String username,
+							@RequestParam String password,
+							ModelMap map) {
 		StudentPOJO student = service.add(name, email,
-										contact, city);
+										contact, city, username, password);
 		if(student != null) {
 			map.addAttribute("student", student);
 			map.addAttribute("msg", "Student added successfully..!!");

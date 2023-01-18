@@ -13,8 +13,13 @@ public class StudentService {
 	private StudentRepository repository;
 
 	public StudentPOJO add(String name, String email, 
-							long contact, String city) {
-		StudentPOJO student = repository.add(name, email, contact, city);
+							long contact, String city, String username, String password) {
+		StudentPOJO student = repository.add(name, email, contact, city, username, password);
+		return student;
+	}
+	
+	public StudentPOJO login(String username, String password) {
+		StudentPOJO student = repository.login(username, password);
 		return student;
 	}
 

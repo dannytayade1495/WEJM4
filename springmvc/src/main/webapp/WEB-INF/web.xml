@@ -6,6 +6,7 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	id="WebApp_ID" version="4.0">
 	<display-name>mvc</display-name>
 	<welcome-file-list>
+		<welcome-file>/WEB-INF/views/Login.jsp</welcome-file>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.jsp</welcome-file>
 		<welcome-file>index.htm</welcome-file>

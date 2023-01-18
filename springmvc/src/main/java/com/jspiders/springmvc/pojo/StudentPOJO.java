@@ -22,5 +22,9 @@ public class StudentPOJO {
 	private long contact;
 	
 	private String city;
+	
+	private String username;
+	
+	private String password;
 
 }
