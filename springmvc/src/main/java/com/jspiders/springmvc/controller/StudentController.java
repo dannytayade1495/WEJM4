@@ -72,6 +72,21 @@ public class StudentController {
 		return "Search";
 	}
 	
+	//Search response controller
+	@PostMapping("/search")
+	public String searchData(@RequestParam int id,
+							ModelMap map) {
+		StudentPOJO student = service.search(id);
+		if (student != null) {
+			//success
+			map.addAttribute("student", student);
+			return "Search";
+		}
+		//failure
+		map.addAttribute("msg", "Student data does not exist..!!");
+		return "Search";
+	}
+	
 	//Remove form controller
 	@GetMapping("/remove")
 	public String remove() {

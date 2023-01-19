@@ -73,4 +73,18 @@ public class StudentRepository {
 		return null;
 	}
 
+	public StudentPOJO search(int id) {
+		openConnection();
+		transaction.begin();
+		StudentPOJO student = manager.find(StudentPOJO.class, id);
+		if (student != null) {
+			transaction.commit();
+			closeConnection();
+			return student;
+		}
+		transaction.commit();
+		closeConnection();
+		return null;
+	}
+
 }

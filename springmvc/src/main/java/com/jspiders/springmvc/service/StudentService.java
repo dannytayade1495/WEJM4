@@ -23,4 +23,9 @@ public class StudentService {
 		return student;
 	}
 
+	public StudentPOJO search(int id) {
+		StudentPOJO student = repository.search(id);
+		return student;
+	}
+
 }
