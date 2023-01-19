@@ -1,5 +1,7 @@
 package com.jspiders.springmvc.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,6 +27,16 @@ public class StudentService {
 
 	public StudentPOJO search(int id) {
 		StudentPOJO student = repository.search(id);
+		return student;
+	}
+
+	public List<StudentPOJO> searchAll() {
+		List<StudentPOJO> students = repository.searchAll();
+		return students;
+	}
+
+	public StudentPOJO remove(int id) {
+		StudentPOJO student = repository.remove(id);
 		return student;
 	}
 

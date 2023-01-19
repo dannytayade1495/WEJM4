@@ -54,13 +54,11 @@ public class StudentRepository {
 		closeConnection();
 		return pojo;
 	}
-	
+
 	public StudentPOJO login(String username, String password) {
 		openConnection();
 		transaction.begin();
-		jpql = "from StudentPOJO "
-				+ "where username = '" + username + "' "
-				+ "and password = '" + password +"'";
+		jpql = "from StudentPOJO " + "where username = '" + username + "' " + "and password = '" + password + "'";
 		query = manager.createQuery(jpql);
 		List<StudentPOJO> resultList = query.getResultList();
 		for (StudentPOJO student : resultList) {
@@ -85,6 +83,29 @@ public class StudentRepository {
 		transaction.commit();
 		closeConnection();
 		return null;
+	}
+
+	public List<StudentPOJO> searchAll() {
+		openConnection();
+		transaction.begin();
+		jpql = "from StudentPOJO";
+		query = manager.createQuery(jpql);
+		List<StudentPOJO> students = query.getResultList();
+		transaction.commit();
+		closeConnection();
+		return students;
+	}
+
+	public StudentPOJO remove(int id) {
+		openConnection();
+		transaction.begin();
+		StudentPOJO student = manager.find(StudentPOJO.class, id);
+		if (student != null) {
+			manager.remove(student);
+		}
+		transaction.commit();
+		closeConnection();
+		return student;
 	}
 
 }

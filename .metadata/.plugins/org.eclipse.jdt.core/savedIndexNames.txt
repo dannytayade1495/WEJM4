@@ -1,7 +1,6 @@
 INDEX VERSION 1.131+D:\WEJM4\.metadata\.plugins\org.eclipse.jdt.core
 3288147116.index
 1272507924.index
-485642199.index
 2853113518.index
 923132695.index
 1055242626.index
