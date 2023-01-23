@@ -40,4 +40,10 @@ public class StudentService {
 		return student;
 	}
 
+	public StudentPOJO update(int id, String name, String email, long contact, String city, String username,
+			String password) {
+		StudentPOJO student = repository.update(id, name, email, contact, city, username, password);
+		return student;
+	}
+
 }
