@@ -45,6 +45,15 @@ body {
 </style>
 </head>
 <body>
+	<%
+	if (msg != null) {
+	%>
+	<h3 align="center">
+		<%=msg%>
+	</h3>
+	<%
+	}
+	%>
 	<fieldset>
 		<legend>:::Login to proceed:::</legend>
 		<form action="./login" method="post">
@@ -63,14 +72,6 @@ body {
 			</table>
 		</form>
 	</fieldset>
-	<%
-	if (msg != null) {
-	%>
-	<h3 align="center">
-		<%=msg%>
-	</h3>
-	<%
-	}
-	%>
+
 </body>
 </html>
