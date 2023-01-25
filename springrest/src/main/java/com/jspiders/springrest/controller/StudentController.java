@@ -39,7 +39,6 @@ public class StudentController {
 	}
 	
 	@GetMapping(path = "/search{id}",
-			consumes = MediaType.APPLICATION_JSON_VALUE,
 			produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<StudentResponse> search(@PathVariable int id) {
 		StudentPOJO student = service.search(id);
