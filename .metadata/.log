@@ -9218,3 +9218,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.wst.server.core 4 0 2023-01-25 09:40:17.742
 !MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-26 09:44:36.009
+!MESSAGE The POM for org.xmlunit:xmlunit-core:jar:2.9.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
