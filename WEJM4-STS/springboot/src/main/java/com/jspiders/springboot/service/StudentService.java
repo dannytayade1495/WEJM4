@@ -24,4 +24,9 @@ public class StudentService {
 		return student;
 	}
 
+	public StudentPOJO searchByName(String name) {
+		StudentPOJO student = repository.findByName(name);
+		return student;
+	}
+
 }
